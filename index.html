@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>HammerTime Auctions — онлайн-аукціони в реальному часі</title>
+
+  <meta 
+    name="description" 
+    content="HammerTime Auctions — простий вебсайт для онлайн-аукціонів у реальному часі. Платформа дозволяє переглядати лоти, робити ставки та брати участь в аукціонах онлайн." 
+  />
+
+  <meta name="keywords" content="онлайн аукціони, ставки, лоти, вебплатформа, HammerTime, SEO лабораторна" />
+  <meta name="author" content="Elisabeth Rothar" />
+
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-content">
+      <div class="logo">HammerTime</div>
+
+      <nav class="nav">
+        <a href="#about">Про сайт</a>
+        <a href="#auctions">Аукціони</a>
+        <a href="#benefits">Переваги</a>
+        <a href="#contact">Контакти</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Онлайн-аукціони в реальному часі</h1>
+
+          <p>
+            HammerTime Auctions — це вебплатформа для проведення онлайн-аукціонів,
+            де користувачі можуть переглядати лоти, робити ставки та стежити
+            за зміною ціни в режимі реального часу.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#auctions" class="btn primary">Переглянути лоти</a>
+            <a href="#about" class="btn secondary">Дізнатися більше</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h2>Активний аукціон</h2>
+          <p class="lot-name">Apple MacBook Pro 14</p>
+          <p class="price">Поточна ставка: $1200</p>
+          <p class="time">До завершення: 02:45:10</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>Про сайт</h2>
+
+        <p>
+          Цей сайт створено як MVP вебзастосунку для лабораторної роботи з SEO.
+          Головна мета — перевірити, як пошукові системи бачать HTML-структуру
+          сайту, розгорнутого у production-середовищі.
+        </p>
+
+        <p>
+          На відміну від CSR-застосунків, де основний контент створюється
+          JavaScript-кодом після завантаження сторінки, цей лендінг одразу
+          містить важливий текст у HTML. Це покращує доступність сайту для
+          пошукових роботів.
+        </p>
+      </div>
+    </section>
+
+    <section id="auctions" class="section light">
+      <div class="container">
+        <h2>Популярні лоти</h2>
+
+        <div class="cards">
+          <article class="card">
+            <h3>iPhone 15 Pro</h3>
+            <p>Смартфон у відмінному стані з мінімальним стартовим внеском.</p>
+            <span>Стартова ціна: $700</span>
+          </article>
+
+          <article class="card">
+            <h3>MacBook Air M2</h3>
+            <p>Легкий ноутбук для навчання, роботи та розробки вебпроєктів.</p>
+            <span>Стартова ціна: $900</span>
+          </article>
+
+          <article class="card">
+            <h3>Apple Watch Series 9</h3>
+            <p>Смартгодинник з великим набором функцій для щоденного використання.</p>
+            <span>Стартова ціна: $250</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="benefits" class="section">
+      <div class="container">
+        <h2>Переваги платформи</h2>
+
+        <div class="benefits">
+          <div class="benefit">
+            <h3>Швидкий доступ</h3>
+            <p>Користувач може швидко переглядати доступні лоти та актуальні ставки.</p>
+          </div>
+
+          <div class="benefit">
+            <h3>Зручний інтерфейс</h3>
+            <p>Сайт має просту структуру, зрозумілу навігацію та адаптивний дизайн.</p>
+          </div>
+
+          <div class="benefit">
+            <h3>SEO-оптимізація</h3>
+            <p>Основний контент присутній у початковому HTML і доступний для crawler.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Зв’язатися з нами</h2>
+
+        <p>
+          Для участі в аукціонах або отримання додаткової інформації залиште заявку.
+        </p>
+
+        <form class="form" action="/thank-you.html" method="GET">
+          <input type="text" name="name" placeholder="Ваше ім’я" required />
+          <input type="email" name="email" placeholder="Ваш email" required />
+          <button type="submit">Надіслати заявку</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 HammerTime Auctions. MVP сайт для лабораторної роботи з SEO.</p>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
